@@ -8,7 +8,7 @@
       
        else{
       
-       fetch("https://raw.githubusercontent.com/Shishirthapaa/Weatherapp/main/ptp2.php")
+       fetch("http://localhost/shishir/ptp2.php")
        // Convert response string to json object
        .then((Response) => Response.json())
        .then((Response) => {

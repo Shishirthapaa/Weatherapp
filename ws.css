@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('web6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card{
+    background:#000000a0;
+    color: white;
+    padding: 20px;
+    border-radius: 40px;
+    width: 100%;
+    max-width: 420px;
+    margin: 100px;
+
+}
+.weather{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+.weather #temp{
+    margin-top: 10px;
+}
+
+
+h1#temp{
+    margin: 0;
+    margin-bottom: 8px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+#description{
+    text-transform: capitalize;
+    margin-left: 8px;
+    align-items: center;
+
+}
+.icon{
+    align-items: left;
+}
+
